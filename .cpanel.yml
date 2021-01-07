@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/connectingthedots/public_html/
-    - /bin/cp -R dist $DEPLOYPATH
+    - export DEPLOYPATH=/home/xbk4u9bcmugu/public_html/
+    - /bin/cp -R dist/connecting-the-dots $DEPLOYPATH
