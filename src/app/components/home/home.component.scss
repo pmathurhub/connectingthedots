@@ -1,0 +1,20 @@
+.home-container {
+
+    .cover-image {
+        height: 350px;
+        object-fit: cover;
+        padding: 10px 0;
+        width: 100%;        
+    }
+
+    .image-text-container {
+        display: flex;
+        height: 500px;
+        justify-content: center;
+        overflow-y: scroll;
+    }
+
+    th {
+        padding: 50px;
+    }
+}
