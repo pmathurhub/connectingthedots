@@ -1,0 +1,10 @@
+.tabs-container {
+    display: flex;
+    justify-content: space-evenly;
+
+    .tab-item {
+        border-style: groove;
+        font-size: 25px;
+        padding: 40px;
+    }
+}

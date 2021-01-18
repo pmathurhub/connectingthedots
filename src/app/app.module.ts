@@ -10,6 +10,8 @@ import { ButtonComponent } from './components/button/button.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
+import { CollageComponent } from './components/collage/collage.component';
+import { TabsComponent } from './components/tabs/tabs.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { AboutComponent } from './components/about/about.component';
     ButtonComponent,
     NavigationComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    CollageComponent,
+    TabsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,30 @@
+.collage-container {
+  align-items: center;
+  background-image: url("/assets/images/nadiaMeditating.JPG");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+
+  .collage-heading {
+    padding: 40px 0 30px 0;
+    font-size: 40px;
+  }
+
+  .collage-description {
+    padding-bottom: 40px;
+    font-size: 30px;
+    width: 50%;
+  }
+
+  .image-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+        img {
+            width: 30%;
+        }
+  }
+}
