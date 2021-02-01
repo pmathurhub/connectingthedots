@@ -1,10 +1,21 @@
 .header-container {
   align-items: center;
-  background-color: lightgray;
+  background-color: white;
   display: flex;
-  height: 75px;
-  justify-content: flex-end;
-  opacity: 0.7;
+  height: 120px;
+  justify-content: space-between;
   position: fixed;
+  top: 0;
   width: calc(100% - 16px);
+
+  .logo-container {
+    display: flex;
+    height: 100px;
+    padding-left: 15px;
+    width: 100px;
+  }
+
+  app-navigation {
+    width: 600px;
+  }
 }

@@ -1,7 +1,9 @@
+@import '../../../styles/variables';
+
 .footer-container {
     
     align-items: center;
-    background-color: #7DBDF7;
+    background-color: $app-teal;
     display: flex;
     flex-direction: column;
     height: 150px;

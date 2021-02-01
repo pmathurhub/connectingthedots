@@ -1,9 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { StyleOptions } from '../button/button.component';
 
 enum NAVIGATE {
   HOME,
-  ABOUT
+  ABOUT,
+  RECOMMENDATION
 }
 
 @Component({
@@ -12,6 +14,10 @@ enum NAVIGATE {
   styleUrls: ['./navigation.component.scss']
 })
 export class NavigationComponent implements OnInit {
+
+  getStartedStyleOptions: StyleOptions = {
+    class: 'border'
+  }
 
   constructor(private router: Router) { }
 
@@ -27,6 +33,9 @@ export class NavigationComponent implements OnInit {
         break;
       case NAVIGATE.ABOUT:
         this.router.navigate(['/about']);
+        break;
+      case NAVIGATE.RECOMMENDATION:
+        this.router.navigate(['/recommendation']);
         break;
       default:
         console.log(`Unknown route: ${route}`);

@@ -12,6 +12,7 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { CollageComponent } from './components/collage/collage.component';
 import { TabsComponent } from './components/tabs/tabs.component';
+import { RecommendationComponent } from './components/recommendation/recommendation.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { TabsComponent } from './components/tabs/tabs.component';
     HomeComponent,
     AboutComponent,
     CollageComponent,
-    TabsComponent
+    TabsComponent,
+    RecommendationComponent
   ],
   imports: [
     BrowserModule,

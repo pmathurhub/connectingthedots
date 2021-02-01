@@ -1,2 +1,14 @@
-<img src="{{ imageSrc }}" alt="image">
-<div>{{ text }}</div>
+<div class="img-txt-container">
+  <div class="img-container" [ngStyle]="{ order: imageOrder }">
+    <img src="{{ imageSrc }}" alt="image" />
+  </div>
+  <div class="txt-container">
+    <span class="txt-heading">{{ heading }}</span>
+    <span class="txt-description">{{ description }}</span>
+    <app-button
+      [label]="buttonText"
+      [styleOptions]="buttonStyleOptions"
+      (onButtonClick)="navigate('/home')"
+    ></app-button>
+  </div>
+</div>
